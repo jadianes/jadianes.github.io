@@ -1,7 +1,7 @@
 ---
 layout: page
 link_text: About
-title: Being a soloist
+title: Being a starter
 permalink: /about/
 in_nav: true
 ---
