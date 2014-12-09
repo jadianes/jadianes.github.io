@@ -1,8 +1,8 @@
 # Site settings
-title: an IT soloist blog
+title: an IT starter blog
 email: jadianes@gmail.com
 author: J. A. Dianes
-description: "An IT solo blog"
+description: "An IT starter blog"
 baseurl: ""
 url: "http://www.jadianes.me"
 google_analytics:
