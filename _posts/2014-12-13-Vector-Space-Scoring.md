@@ -12,7 +12,7 @@ Previously we discussed [tf-idf](/tf-idf-101) as a way to calculate how relevant
 is given a set of indexed documents. When having multiple terms, we used
 *overlap score measure* consisting in the sum of the *tf-idf* for each term in
 the given input. A more general and flexible way of scoring multi-term searches
-is using the **vector space model**.  
+is using the **[vector space model](http://en.wikipedia.org/wiki/Vector_space_model)**.  
 
 In the vector space model, each document in the corpus is represented by a
 vector. The search input terms are also represented by a vector. Scoring search
