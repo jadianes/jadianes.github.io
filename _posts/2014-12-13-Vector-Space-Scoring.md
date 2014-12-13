@@ -36,23 +36,21 @@ import re
 
 class IrIndex:
     """An in-memory inverted index"""
-    
+
     pattern = re.compile("^\s+|\s*,*\s*|\s+$")
-    
+
     def __init__(self):
         self.index = {}
         self.documents = []
         self.vectors = []
 
     def index_document(self, document):
-        ## split
+        # split
         terms = [word for word in self.pattern.split(document)]
-        
-        ## add to documents
+        # add to documents
         self.documents.append(document)
-        document_pos = len(self.documents)-1
-        
-        ## add posts to index, while creating document vector
+        document_pos = len(self.documents) - 1
+        # add posts to index, while creating document vector
         vector = {}
         for term in terms:
             if term not in self.index:
@@ -61,9 +59,8 @@ class IrIndex:
             if term not in vector:
                 vector[term] = 1
             else:
-                vector[term] = vector[term] + 1
-        
-        ## add the vector
+                vector[term] += 1
+        # add the vector
         self.vectors.append(vector)
 {% endhighlight %}
 
@@ -95,51 +92,43 @@ from numpy import array, dot
 from math import log
 
 def create_tfidf_list(self, *args):
-    if (len(args)==1):
-        res = [tf for tf in args[0].itervalues()]
-    elif (len(args)==2):
-        res = []
-        for term in args[0].iterkeys():
-            if term in args[1]:
-                idf = log( float( len(self.documents) ) / float( len(self.index[term]) ) )
-                res.append(args[1][term] * idf)
-            else:
-                res.append(0)
-    
-    return res
-
+        if len(args) == 1:
+            res = [tf for tf in args[0].itervalues()]
+        elif len(args) == 2:
+            res = []
+            for term in args[0].iterkeys():
+                if term in args[1]:
+                    idf = log(float(len(self.documents)) / float(len(self.index[term])))
+                    res.append(args[1][term] * idf)
+                else:
+                    res.append(0)
+        return res
 
 def create_tf_dictionary(self, terms):
     res = {}
     for term in self.pattern.split(terms):
         if term not in res:
             res[term] = terms.count(term)
-    
     return res
-
 
 def vector_space_search(self, terms):
     res = []
     hits = {}
-    
     # create a numeric vector from terms
     terms_tf_dictionary = self.create_tf_dictionary(terms)
     terms_tfidf_list = self.create_tfidf_list(terms_tf_dictionary)
-    
     # create a numeric vector for each hitting document
     hitting_terms = [term for term in self.pattern.split(terms) if term in self.index]
-    for term in hitting_terms: # for each term having at least on hit...
-        for post in self.index[term]: # for each document create the numeric vector
+    for term in hitting_terms:  # for each term having at least on hit...
+        for post in self.index[term]:  # for each document create the numeric vector
             if post not in hits:
                 tfidf_list = self.create_tfidf_list(terms_tf_dictionary, self.vectors[post])
                 hits[post] = tfidf_list
-    
     # do the dot products
     for post in hits.iterkeys():
         score = dot(array(terms_tfidf_list), array(hits[post]))
         res.append((score, self.documents[post]))
-        
-    return res 
+    return res
 
 
 IrIndex.create_tf_dictionary = create_tf_dictionary
