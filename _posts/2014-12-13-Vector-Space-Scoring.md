@@ -2,7 +2,7 @@
 layout: post
 title: "Scoring using the Vector Space Model"
 author: "Jose A. Dianes"
-date: "16 November 2014"
+date: "13 December 2014"
 comments: true
 categories: information-retrieval
 tags: python information-retrieval vector-space-model
@@ -12,25 +12,24 @@ Previously we discussed [tf-idf](/tf-idf-101) as a way to calculate how relevant
 is given a set of indexed documents. When having multiple terms, we used
 *overlap score measure* consisting in the sum of the *tf-idf* for each term in
 the given input. A more general and flexible way of scoring multi-term searches
-is using the **vector space model**.
+is using the **vector space model**.  
 
 In the vector space model, each document in the corpus is represented by a
 vector. The search input terms are also represented by a vector. Scoring search
 results consists then in vector operations between the documents vectors and the
-search terms vector.
+search terms vector.  
 
-
-
-But what is each of these vectors made of? Basically they define term
-frequencies. That is, each dimension in a vector represents the term frequency
-for a given term. Then, a document is represented in a multi-dimensional space
+But what each of these vectors represent? Basically they define term
+frequencies (or tf-idf in our implementation). That is, each dimension in a 
+given vector represents the term frequency
+for a given term. Doing so, a document is represented in a multi-dimensional space
 by a vector of the frequencies of each of the words in hte corpus. Equally, a
-search input is represented by a vector in the same space but using the input
-terms.
+search query is represented by a vector in the same space but using the input
+terms.  
 
 #### Python implementation
 
-The following is a Python representation if this concept.
+The following is a Python representation if this concept.  
 
 {% highlight python %}
 import re
@@ -70,24 +69,26 @@ class IrIndex:
 
 We use the same `IrIdenx` class and a boolean search schema. The difference is
 when calculating scores. We don't store a precalculated `tf` structure anymore
-but operate vectors directly.
+but operate vectors directly.  
 
-In terms of complexity, when indexing we have moved from:
+In terms of complexity, when indexing we have moved from:  
+
 * Recalculate every `tf` entry when indexing a new document. This involves
-lookup + sum for each term in the document.
+lookup + sum for each term in the document.  
 
-To:
+To:  
+
 * Indexing stage: store a new document as a vectors of `tf` values. Here we save
-the recalculation of `tf` entries.
+the recalculation of `tf` entries.  
 
 So as we can see, the indexing stage is simpler (and more scalable) when using
 the vector space model. This scalability gain when indexing is not to be
 overlooked. In an index with hundreds of thousands or even millions of terms,
 indexing a new large document and recalculating term frequencies at a global
 scale can be costly. We could calculate term frequencies when searching instead,
-but then using the vector space model makes even more sense.
+but then using the vector space model makes even more sense.  
 
-Next the search and scoring part.
+Next the search and scoring part.  
 
 {% highlight python %}
 from numpy import array, dot
@@ -146,17 +147,18 @@ IrIndex.create_tfidf_list = create_tfidf_list
 IrIndex.vector_space_search = vector_space_search
 {% endhighlight %}
 
-At search stage, we have moved from:
+At search stage, we have moved from:  
 
 * Calculate the `idf` and access the `tf` lookup table for each search term and
 document hit. Sum the resulting `tf-idf` values for each document hit. This is
 done using two for loops, one of them including another nested internal for
-loop.
+loop.  
 
-To:
+To:  
+
 * Access the `index` lookup table for any of the search terms and perform dot-
 product with the resulting vectors. The later is an overhead introduced by this
-approach in the search stage.
+approach in the search stage.  
 
 The new search stage has introduced vector dot products where there were just
 sums (although using nested lopps) when the vector space model was not used.
@@ -164,11 +166,11 @@ However the data structures and their usage has been simplified. Note that we
 build the vectors from pre-calculated dictionaries. Doing so we can determine
 the dimensions form the search query vector.  
 
-#### Examples
+#### Examples  
 
 Let us now recall our sample wine-related mini-corpus in order to see if we get
 similar results using the new Vector Space Model. Remember that results are
-given unsorted. Just pay attention to the scores.
+given unsorted. Just pay attention to the scores.  
 
 {% highlight python %}
 index = IrIndex()
@@ -260,18 +262,22 @@ index.vector_space_search("Margaux Bordeaux")
  (2.8134107167600364, 'Chateau Margaux 1996, Bordeaux, France')]
 {% endhighlight %}
 
-#### Other benefits of the Vector Space Model
+#### Other benefits of the Vector Space Model  
 
 But what other benefits come with the vector space model? These are some of
-them:
+them:  
+
 * Treating queries as vectors allows us simplifying data structures and
 calculations. Where we used two dictionaries and loops, now we use a single
-dictionary and linear algebra.
+dictionary and linear algebra.  
+
 * The compact and easy to operate vector representation leaves the door open to
 different weighting and transformation schemas that were difficult to apply
-before (or at least the result were not so clean).
+before (or at least the result were not so clean).  
+
 * Vectors can be the input of additional Information Retrieval and Machine
 Learning techniques including supervised (e.g. classification) and unsupervised
-(e.g. clustering, frequent pattern mining).
+(e.g. clustering, frequent pattern mining).  
+
 
 
