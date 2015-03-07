@@ -1,8 +1,8 @@
 # Site settings
-title: an IT starter blog
+title: building Data Products
 email: jadianes@gmail.com
 author: J. A. Dianes
-description: "An IT starter blog"
+description: "building Data Products"
 baseurl: ""
 url: "http://www.jadianes.me"
 google_analytics:

@@ -1,11 +1,11 @@
 ---
 layout: page
 link_text: About
-title: Being a starter
+title: Mind the gap
 permalink: /about/
 in_nav: true
 ---
-This one is a blog about information technologies, and about those IT topics that I find exciting such as **Data Analysis**, **Knowledge Discovery**, or **Enterprise Systems**. But over all it is about **autonomous** and **quick** ways of **starting up** things. Therefore we will talk and use technologies such as `Solr`, `Lucene`, or `Mahout`, but also about doing cool things with `GitHub`, `jsFiddle`, `knitr`, the `R` ecosystem, `Python`, `yhat`, etc.  
+This one is a blog about those topics that I find exciting such as **Data Analysis**, **Knowledge Discovery**, and **Scalability** of distributed software systems. But over all it is about how to overcome **the gap** between data analysis and software engineering in order to build **data products**. Therefore we will talk about technologies such as `Solr` and `Lucene`, the 'R' and 'Python' ecosystems, or 'Spark'. But also about integrating them into enterprise software systems using 'Java', Spring', 'Flask', 'AngularJS', 'D3', etc.  
 
 Shall we discuss these topics any further? Just contact me.  
 
