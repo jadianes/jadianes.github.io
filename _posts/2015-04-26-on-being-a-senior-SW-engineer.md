@@ -12,7 +12,7 @@ There is a certain amount of debate around what being a **senior software engine
 
 For me, the main duty of a senior technical worker, a software engineer in my case, is making sound professional decisions. It is expected from somebody hired as a senior engineer to make decisions, and try to make them as right as possible based on your capabilities. This decision-making process is supported by:  
 
-- Having the experience making decisions! There is no substitute for having experience with trying things out, with success, and with failure (and overcoming it). That’s human nature.    
+- Having experience making decisions! There is no substitute for having experience with all the trying things out, with success, and with failure (and overcoming it). That’s human nature.    
 
 - Having the skills to solve the right problem with the right tool or technique. This one is very straightforward. The software business is a very technical and competitive one, and a good engineer needs to be tech-savy and a good problem solver.   
 
