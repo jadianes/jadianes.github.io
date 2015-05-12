@@ -4,8 +4,8 @@ title: "Spark & Python Notebooks I: the basics"
 author: "Jose A. Dianes"
 date: "12 May 2015"
 comments: true
-categories: data-analysis,   
-tags: data-analysis, spark, python, big-data
+categories: data-analysis   
+tags: data-analysis spark python big-data
 ---
 
 This is a collection of IPython notebooks intended to train the reader
