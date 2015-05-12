@@ -14,7 +14,7 @@ language.
 
 ## Instructions  
 
-A good way of using these notebooks is by first cloning the repo, and then 
+A good way of using these notebooks is by first cloning [the GitHub repo](https://github.com/jadianes/spark-py-notebooks), and then 
 starting your own [IPython notebook](http://ipython.org/notebook.html) in 
 **pySpark mode**. For example, if we have a *standalone* Spark installation
 running in our `localhost` with a maximum of 6Gb per node assigned to IPython:  
