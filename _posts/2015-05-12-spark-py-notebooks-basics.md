@@ -12,7 +12,7 @@ This is a collection of IPython notebooks intended to train the reader
 on different Spark concepts, from basic to advanced, by using the Python
 language.  
 
-## Instructions  
+### Instructions  
 
 A good way of using these notebooks is by first cloning [the GitHub repo](https://github.com/jadianes/spark-py-notebooks), and then 
 starting your own [IPython notebook](http://ipython.org/notebook.html) in 
@@ -30,29 +30,29 @@ For more Spark options see [here](https://spark.apache.org/docs/latest/spark-sta
 described in the form `spark.executor.memory` as `SPARK_EXECUTOR_MEMORY` when
 calling IPython/pySpark.   
  
-## Datasets  
+### Datasets  
 
 We will be using datasets from the [KDD Cup 1999](http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html).
 
-## Notebooks  
+### Notebooks  
 
 The following notebooks can be examined individually, although there is a more
 or less linear 'story' when followed in sequence. By using the same dataset
 they try to solve a related set of tasks with it.  
  
-### [RDD creation](https://github.com/jadianes/spark-py-notebooks/blob/master/nb1-rdd-creation/nb1-rdd-creation.ipynb)  
+#### [RDD creation](https://github.com/jadianes/spark-py-notebooks/blob/master/nb1-rdd-creation/nb1-rdd-creation.ipynb)  
 
 About reading files and parallelize.  
   
-### [RDDs basics](https://github.com/jadianes/spark-py-notebooks/blob/master/nb2-rdd-basics/nb2-rdd-basics.ipynb)
+#### [RDDs basics](https://github.com/jadianes/spark-py-notebooks/blob/master/nb2-rdd-basics/nb2-rdd-basics.ipynb)
 
 A look at `map`, `filter`, and `collect`.  
   
-### [Sampling RDDs](https://github.com/jadianes/spark-py-notebooks/blob/master/nb3-rdd-sampling/nb3-rdd-sampling.ipynb)  
+#### [Sampling RDDs](https://github.com/jadianes/spark-py-notebooks/blob/master/nb3-rdd-sampling/nb3-rdd-sampling.ipynb)  
 
 RDD sampling methods explained.    
   
-### [RDD set operations](https://github.com/jadianes/spark-py-notebooks/blob/master/nb4-rdd-set/nb4-rdd-set.ipynb)    
+#### [RDD set operations](https://github.com/jadianes/spark-py-notebooks/blob/master/nb4-rdd-set/nb4-rdd-set.ipynb)    
 
 Brief introduction to some of the RDD pseudo-set operations.   
 
