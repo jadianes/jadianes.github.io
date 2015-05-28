@@ -8,7 +8,7 @@ categories: data-analysis
 tags: data-analysis spark python big-data
 ---
 
-[Previously](), we introduced the basics of working with Spark RDDs in Python. 
+[Previously](spark-py-notebooks-basics/), we introduced the basics of working with Spark RDDs in Python. 
 In this new notebook, we deal with data aggregations and key/value pair RDDs. 
 
 ### Instructions  
