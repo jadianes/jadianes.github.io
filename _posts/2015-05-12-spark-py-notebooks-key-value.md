@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Spark & Python Notebooks II: key/value pair RDDs"
+title: "Spark & Python Notebooks II: key/value RDDs"
 author: "Jose A. Dianes"
 date: "28 May 2015"
 comments: true
