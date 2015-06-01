@@ -8,7 +8,7 @@ categories: data-analysis
 tags: data-analysis spark python big-data
 ---
 
-Episodes [one](http://jadianes.me/spark-py-notebooks-basics/) and [two](http://jadianes.me/spark-py-notebooks-key-value/) in our Spark series introduced how to work with RDDs. The third one introduces Spark's MLlib library for machine learning, starting with its **Statistics** and **Exploratory Data Analysis** capabilities.   
+Episodes [one](http://jadianes.me/spark-py-notebooks-basics/) and [two](http://jadianes.me/spark-py-notebooks-key-value/) in our Spark series introduced how to work with RDDs. The third one introduces Spark's **MLlib** library for machine learning, starting with its **Statistics** and **Exploratory Data Analysis** capabilities.   
 
 ### Instructions  
 
@@ -38,7 +38,7 @@ The following notebooks can be examined individually, although there is a more
 or less linear 'story' when followed in sequence. By using the same dataset
 they try to solve a related set of tasks with it.  
  
-### [MLlib: Basic Statistics and Exploratory Data Analysis](http://nbviewer.ipython.org/github/jadianes/spark-py-notebooks/blob/master/nb7-mllib-statistics/nb7-mllib-statistics.ipynb)    
+#### [MLlib: Basic Statistics and Exploratory Data Analysis](http://nbviewer.ipython.org/github/jadianes/spark-py-notebooks/blob/master/nb7-mllib-statistics/nb7-mllib-statistics.ipynb)    
 
 A notebook introducing Local Vector types, basic statistics 
 in MLlib for Exploratory Data Analysis and model selection.   
