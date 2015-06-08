@@ -8,7 +8,7 @@ categories: data-analysis
 tags: data-analysis spark python big-data logistic-regression
 ---
 
-The [third episode](http://jadianes.me/spark-py-notebooks-statistics/) in our Spark series introduced the **MLlib** library and its **Statistics** and **Exploratory Data Analysis** capabilities. This fourth notebook will explain how to use the library to build a **classifier** using **Logistic Regression** on a large dataset. We will also use two different approaches to **model selection**.     
+The [third episode](http://jadianes.me/spark-py-notebooks-statistics/) in our Spark series introduced the **MLlib** library and its **Statistics** and **Exploratory Data Analysis** capabilities. This fourth notebook explains how to use the library to build a **classifier** using **Logistic Regression** on a large dataset. It also describes two different approaches to **model selection**.     
 
 ### Instructions  
 
