@@ -5,7 +5,7 @@ author: "Jose A. Dianes"
 date: "4 October 2014"
 comments: true
 categories: data-analysis
-tags: R data-analysis model-selection
+tags: r data-analysis model-selection
 output:
   html_document:
     keep_md: yes

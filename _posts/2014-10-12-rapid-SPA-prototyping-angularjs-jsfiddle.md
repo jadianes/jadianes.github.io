@@ -4,8 +4,8 @@ title: "Rapid Single-Page Application prototype with AngularJS & jsFiddle"
 author: "Jose A. Dianes"
 date: "12 October 2014"
 comments: true
-categories: development prototyping
-tags: JavaScript AngularJS JSFiddle
+categories: development
+tags: javascript angularjs
 ---
 
 Imagine we have just developed a brand new RESTful API, and we want to demostrate how easy is to use it and how quickly we can develop **Single-Page Web applications**. An elegant way of building a prototype aplication is by using **AngularJS** and **jsFiddle**.
