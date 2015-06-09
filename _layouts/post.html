@@ -16,11 +16,11 @@ layout: default
   {% endfor %}
   <br>
   <span class="post-meta">About </span>
-  {% for tag in page.tags %}
-    <span class="post-meta"><a href="/tags/{{ tag }}">{{ tag }}</a></span>
-  {% endfor %}
+<!--   {% for tag in page.tags %}
+    <span class="post-meta small"><a href="/tags/{{ tag }}">{{ tag }}</a></span>
+  {% endfor %} -->
   <br>
-  <!-- <span class="post-meta small">About {{ page.tags | array_to_sentence_string }}</span><br> -->
+  <span class="post-meta small">About {{ page.tags | array_to_sentence_string }}</span><br>
   {% if page.update_date %}
     <span class="post-meta small">Updated: {{ page.update_date | date: "%b %-d, %Y" }}</span><br>
   {% endif %}
