@@ -5,7 +5,7 @@ author: "Jose A. Dianes"
 date: "13 December 2014"
 comments: true
 categories: information-retrieval
-tags: python information-retrieval vector-space-model
+tags: python
 ---
 
 Previously we discussed [tf-idf](/tf-idf-101) as a way to calculate how relevant a search term

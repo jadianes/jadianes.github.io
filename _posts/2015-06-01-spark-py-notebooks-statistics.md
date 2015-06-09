@@ -5,7 +5,7 @@ author: "Jose A. Dianes"
 date: "1 June 2015"
 comments: true
 categories: data-analysis   
-tags: data-analysis spark python big-data
+tags: spark python
 ---
 
 Episodes [one](http://jadianes.me/spark-py-notebooks-basics/) and [two](http://jadianes.me/spark-py-notebooks-key-value/) in our Spark series introduced how to work with RDDs. The third one introduces Spark's **MLlib** library for machine learning, starting with its **Statistics** and **Exploratory Data Analysis** capabilities.   

@@ -5,7 +5,7 @@ author: "Jose A. Dianes"
 date: "26 April 2015"
 comments: true
 categories: management  
-tags: senior
+tags: 
 ---
 
 There is a certain amount of debate around what being a **senior software engineer** means. The truth is that I didn't hear about any convincing formal definition of it. At least not one based on number of years at the role, salary, or management position. My personal experience is that, more than a clear definition of when you become a senior, there is instead one clear duty that comes with the role once you get into it. And there are three supporting pillars that help succeeding at it.  

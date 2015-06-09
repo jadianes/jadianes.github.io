@@ -5,7 +5,7 @@ author: "Jose A. Dianes"
 date: "28 May 2015"
 comments: true
 categories: data-analysis   
-tags: data-analysis spark python big-data
+tags: spark python
 ---
 
 [Previously](http://jadianes.me/spark-py-notebooks-basics/), we introduced the basics of working with Spark RDDs in Python. 

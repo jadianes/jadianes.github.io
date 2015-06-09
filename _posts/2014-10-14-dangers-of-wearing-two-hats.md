@@ -5,7 +5,7 @@ author: "Jose A. Dianes"
 date: "14 October 2014"
 comments: true
 categories: management
-tags: Scrum
+tags: scrum
 ---
 
 [Scrum](http://en.wikipedia.org/wiki/Scrum_(software_development)) is an agile project development framework. It is a powerful way of thinking within software development organisations. However it has to be understood properly in order to get the most of it.   

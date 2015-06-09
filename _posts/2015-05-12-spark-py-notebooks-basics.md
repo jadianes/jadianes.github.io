@@ -5,7 +5,7 @@ author: "Jose A. Dianes"
 date: "12 May 2015"
 comments: true
 categories: data-analysis   
-tags: data-analysis spark python big-data
+tags: spark python
 ---
 
 This is a collection of IPython notebooks intended to train the reader

@@ -4,7 +4,7 @@ title: "Dangers of inheritance in OO programming"
 date: 2012-08-13 22:41:31 +0100
 comments: true
 categories: development
-tags: development java
+tags: java
 ---
 *Note: The following ideas are part of what is considered today good practices in the Java development community, and are very well explained in the book Effective Java (2nd Edition) by Joshua Bloch.*
 
