@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Spark & Python Notebooks V: Decision Trees & Model Selection"
+title: "Spark & Python Notebooks VI: SQL & Dataframes"
 author: "Jose A. Dianes"
-date: "15 June 2015"
+date: "1 July 2015"
 comments: true
 categories: data-analysis   
-tags: spark python decision-trees model-selection
+tags: spark python sql dataframes
 ---
 
-The [fourth episode](http://jadianes.me/spark-py-notebooks-mllib-logit/) in our Spark series introduced **Logistic Regression** with MLlib. This new notebook explains how to use the library to build a **classifier** using **Decision Trees** on a large dataset. It also shows how powerful trees are in order to understand our data and even perform **model selection**.     
+The [fifth episode](http://jadianes.me/spark-py-notebooks-mllib-trees/) in our Spark series introduced **Decision Trees** with MLlib. This new notebook moves away from **MLlib** for a while in order to introduce **SparkSQL** and the concept of **Dataframe**, that will speed up our analysis and make it easier to communicate.     
 
 ### Instructions  
 
@@ -38,9 +38,10 @@ The following notebooks can be examined individually, although there is a more
 or less linear 'story' when followed in sequence. By using the same dataset
 they try to solve a related set of tasks with it.  
  
-#### [MLlib: Decision Trees](http://nbviewer.ipython.org/github/jadianes/spark-py-notebooks/blob/master/nb9-mllib-trees/nb9-mllib-trees.ipynb)    
+#### [Spark SQL and Data Frames](http://nbviewer.ipython.org/github/jadianes/spark-py-notebooks/blob/master/nb10-sql-dataframes/nb10-sql-dataframes.ipynb)    
 
-Use of tree-based methods and how they help explaining our data and perform feature selection.  
+In this notebook a schema is inferred for our network interactions dataset. Based on that, we use
+Spark's SQL `DataFrame` abstraction to perform a more structured exploratory data analysis.  
 
 This is an ongoing project. New notebooks will be available soon. The best way
 to be up to date is to watch our [GitHub repo](https://github.com/jadianes/spark-py-notebooks).
