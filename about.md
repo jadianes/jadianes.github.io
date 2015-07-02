@@ -9,8 +9,9 @@ This one is a blog about those topics that I find exciting such as [**Data Analy
 
 Shall we discuss these topics any further? Just contact me.  
 
-[![Contact me on Codementor](https://cdn.codementor.io/badges/contact_me_github.svg)](https://www.codementor.io/jadianes)
-
+<div>
+<script data-codementor="jadianes" data-style="badge" data-theme="light" src="https://cdn.codementor.io/assets/badge.js"></script>
+</div>
 <div class="py2">
   <form action="https://forms.brace.io/jadianes@gmail.com" method="POST" class="form-stacked form-light">
     <input type="text" name="email" class="input mobile-block" placeholder="Email Address">
