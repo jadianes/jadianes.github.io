@@ -11,8 +11,8 @@ Shall we discuss these topics any further? Just contact me.
 
 <div>
 <script data-codementor="jadianes" data-style="badge" data-theme="light" src="https://cdn.codementor.io/assets/badge.js"></script>
-</div>
-<div class="py2">
+<!-- </div> -->
+<!-- <div class="py2"> -->
   <form action="https://forms.brace.io/jadianes@gmail.com" method="POST" class="form-stacked form-light">
     <input type="text" name="email" class="input mobile-block" placeholder="Email Address">
     <textarea type="text" name="content" class="input mobile-block" rows="5" placeholder="What would you like to say?"></textarea>
