@@ -9,7 +9,7 @@ This one is a blog about those topics that I find exciting such as [**Data Analy
 
 Shall we discuss these topics any further? Just contact me.  
 
-<a href="https://www.codementor.io/jadianes"><img src="https://cdn.codementor.io/badges/codementor_light.svg" alt="Codementor" style="max-width:100%"/></a>
+[![Contact me on Codementor](https://cdn.codementor.io/badges/contact_me_github.svg)](https://www.codementor.io/jadianes)
 
 <div class="py2">
   <form action="https://forms.brace.io/jadianes@gmail.com" method="POST" class="form-stacked form-light">
