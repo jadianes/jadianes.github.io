@@ -8,7 +8,7 @@ categories: data-analysis
 tags: R python  
 ---
 
-Today we just made public a series of tutorials on Data Science Engineering. In them we will try to compare how different concepts in the discipline can be implemented in the two dominant ecosystems nowadays: R and Python.  
+Today we just made public a [series of tutorials](https://github.com/jadianes/data-science-your-way) on **Data Science Engineering**. In them we will try to compare how different concepts in the discipline can be implemented in the two dominant ecosystems nowadays: **R** and **Python**.  
 
 We will do this from a neutral point of view. Our opinion is that each environment has good and bad things, and any data scientist should know how to use both in order to be as prepared as posible for job market or to start personal project.    
 
