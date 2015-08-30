@@ -5,7 +5,7 @@ author: "Jose A. Dianes"
 date: "19 August 2015"
 comments: true
 categories: data-analysis   
-tags: R python  
+tags: r python  
 ---
 
 Today we just made public a [series of tutorials](https://github.com/jadianes/data-science-your-way) on **Data Science Engineering**. In them we will try to compare how different concepts in the discipline can be implemented in the two dominant ecosystems nowadays: **R** and **Python**.  
