@@ -34,7 +34,7 @@ So frrst things first. We need to preload the training corpus. This code will be
 
 First we load the training data from a tab-separated file.  
 
-{% highlight r %}
+{% highlight r %}  
 train_data_df <- read.csv(
     file = 'train_data.tsv',
     sep='\t', 
@@ -48,7 +48,7 @@ train_data_df$Sentiment <- as.factor(train_data_df$Sentiment)
 
 Once we have the training data in a data frame, we can build a training corpus, as we explained in our [sentiment classification notebook](https://github.com/jadianes/data-science-your-way/tree/master/04-sentiment-analysis).
 
-{% highlight r %}
+{% highlight r %}  
 # Create training corpus for later re-use
 train_corpus <- Corpus(VectorSource(train_data_df$Text))
 train_corpus <- tm_map(train_corpus, content_transformer(tolower))
@@ -61,7 +61,7 @@ train_corpus <- tm_map(train_corpus, stemDocument)
 train_dtm <- DocumentTermMatrix(train_corpus)
 train_dtm <- removeSparseTerms(train_dtm, 0.995)
 train_dtm_df <- data.frame(as.matrix(train_dtm))
-colnames(train_dtm_df) <- make.names(colnames(train_dtm_df))
+colnames(train_dtm_df) <- make.names(colnames(train_dtm_df))  
 {% endhighlight %}
 
 That's it. We can proceed to explain how we intersect this set of terms, given by the column names of the `train_dtm_df`, with its analogous coming from the new input data uploaded by the user. Once we do that we can train our classifier.   
@@ -74,7 +74,7 @@ All the code here will be included in the `build_model` function within the file
 
 So as we did with the training data, we start by creating a corpus, using the same set of transformations. Then we convert it to a document-term matrix and then to a data frame that we can use to intersect with the training one.    
 
-{% highlight r %}
+{% highlight r %}  
 # Create new data corpus
 new_corpus <- Corpus(VectorSource(new_data_df$Text))
 new_corpus <- tm_map(new_corpus, content_transformer(tolower))
@@ -92,7 +92,7 @@ colnames(new_dtm_df) <- make.names(colnames(new_dtm_df))
 
 Then we do the intersection as follows.  
 
-{% endhighlight %}r    
+{% highlight r %}   
 # intersect corpora
 common_names = intersect(colnames(train_dtm_df),colnames(new_dtm_df))
 new_dtm_df <- subset(new_dtm_df, select=names(new_dtm_df) %in% common_names)
@@ -104,12 +104,12 @@ model_train_data_df <- cbind(
 )
 
 # Get rid of the original text that we don't use for training the model
-model_train_data_df$Text <- NULL
+model_train_data_df$Text <- NULL  
 {% endhighlight %}
 
 Now we can train our [random forest](https://en.wikipedia.org/wiki/Random_forest) classifier. Of course we train **just using the training data**. The input data was used just to select terms, never to train the model! Obviously we don't have labels in the new incoming data, so it doesn't even make sense to think about it.    
 
-{% endhighlight %}r
+{% highlight r %}  
 model <- randomForest(Sentiment~.,data=model_train_data_df, ntree=50)
 {% endhighlight %}  
 
@@ -136,7 +136,7 @@ Our User Interface will contain four different areas:
 
 All that is defined by the `ui.R` file as follows.  
 
-{% endhighlight %}r
+{% highlight r %}  
 library(shiny)
 
 shinyUI(fluidPage(
@@ -195,7 +195,7 @@ For a detailed description of layouts and user interface elements, together with
 
 The `server.R` file is in charge of dealing with the user interactions and trigger any required computation. It is mainly defined by a `shinyServer` call as follows.   
 
-{% endhighlight %}r
+{% highlight r %}  
 shinyServer(function(input, output) {
     
     output$contents <- renderTable({
@@ -256,7 +256,7 @@ But we can also declare our own reactive code fragments, and this is what we do 
 
 And that reactivity is propagated to every fragment that makes a call to `results(). For example, the assignment  
 
-{% endhighlight %}r
+{% highlight r %}  
 output$contents <- renderTable({
     results()
 })
@@ -266,7 +266,7 @@ Will be done every time the assignment to `results` is done, and the table will 
 
 But let's pay a bit more attention to the `results` assignment, since there is where our model training and prediction happens. Let's present the code here once more.  
 
-{% endhighlight %}r
+{% highlight r %}  
 results <- reactive({
     inFile <- input$file1
         
@@ -311,7 +311,7 @@ A change in any of the two listed input elements will trigger the execution of t
 
 The code within `build_model` was explained in the previous section. That leaves the complete [`server.R`](https://github.com/jadianes/data-science-your-way/blob/master/apps/sentimentclassifier/server.R) file as follows.  
 
-{% endhighlight %}r
+{% highlight r %}  
 library(shiny)
 library(tm)
 library(SnowballC)
