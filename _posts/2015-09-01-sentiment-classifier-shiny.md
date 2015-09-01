@@ -437,6 +437,6 @@ Take it easy when starting the app. The init code might take up to a few minutes
 
 ## Conclusions  
 
-We have just show how to create a web app from a machine learning model using R. The web development process should take one or two days, and this is very convenient. True is that Shiny is not the definitive framework for complex web applications, but it is perfect for rapid delivery of data products where the UI is relatively straightforward and the power is in a R model. Personally I see a lot of possibilities for freelancing in it, and also to share results within a company!  
+We have just show how to create a web app from a machine learning model using R. We made use of some of the techniques we used to build a sentiment classifier in a [previous notebook](https://github.com/jadianes/data-science-your-way/tree/master/04-sentiment-analysis). The web development process should take one or two days, and this is very convenient. True is that Shiny is not the definitive framework for complex web applications, but it is perfect for rapid delivery of data products where the UI is relatively straightforward and the power is in a R model. Personally I see a lot of possibilities for freelancing in it, and also to share results within a company!  
 
 So if you have followed our tutorial, now is time to fork the repo and make it yours!  
