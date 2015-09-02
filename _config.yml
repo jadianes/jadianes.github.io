@@ -1,25 +1,10 @@
 # Site settings
-<<<<<<< HEAD
 title: building Data Products
 email: jadianes@gmail.com
 author: J. A. Dianes
 description: "building Data Products"
 baseurl: ""
 url: "http://www.jadianes.me"
-google_analytics:
-animated: true
-
-# Build settings
-markdown: kramdown
-permalink: /:title
-paginate: 3
-=======
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
-baseurl:     ""
-url:         "http://pixyll.com"
 date_format: "%b %-d, %Y"
 
 # Google services
@@ -27,7 +12,7 @@ google_analytics:
 google_verification:
 
 # Optional features
-animated:           false
+animated:           true
 show_related_posts: false
 show_post_footers:  false
 show_social_icons:  false
@@ -67,8 +52,8 @@ share_hackernews: false
 markdown:     kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
-permalink:    pretty
+permalink:    /:title
 paginate:     4
->>>>>>> johnotander/master
+
 sass:
   compressed: true
