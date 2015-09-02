@@ -1,6 +1,6 @@
 # Site settings
 title: building Data Products
-email: jadianes@gmail.com
+email:
 author: J. A. Dianes
 description: "building Data Products"
 baseurl: ""
@@ -38,15 +38,15 @@ flattr_button:
 show_sharing_icons: true
 share_text: 'Share this post!'
 # Change to 'true' to enable individual icons
-share_facebook: false
+share_facebook: true
 share_twitter: true
-share_googleplus: false
+share_googleplus: true
 share_linkedin: true
-share_digg: false
+share_digg: true
 share_tumblr: false
-share_reddit: false
+share_reddit: true
 share_stumbleupon: false
-share_hackernews: false
+share_hackernews: true
 
 # Build settings
 markdown:     kramdown
