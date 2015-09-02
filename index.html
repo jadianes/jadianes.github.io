@@ -6,14 +6,7 @@ layout: default
 
   <div class="posts">
     {% for post in paginator.posts %}
-<<<<<<< HEAD
-      <div class="post {% if site.animated %}animated fade-in-down{% endif %}">
-        <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
-          <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
-          <h3 class="h3 post-title">{{ post.title }}</h3>
-          <p class="post-summary">{{ post.excerpt }}</p>
-        </a>
-=======
+
       <div class="post py3">
         <p class="post-meta">{{ post.date | date: site.date_format }}</p>
         <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h1 post-title">{{ post.title }}</h3></a>
@@ -24,15 +17,11 @@ layout: default
             {{ post.excerpt }}
           {% endif %}
         </p>
->>>>>>> johnotander/master
       </div>
     {% endfor %}
   </div>
 
   {% include pagination.html %}
-<<<<<<< HEAD
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-=======
->>>>>>> johnotander/master
 </div>
