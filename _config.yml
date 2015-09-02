@@ -13,21 +13,21 @@ google_verification:
 
 # Optional features
 animated:           true
-show_related_posts: true
-show_post_footers:  false
-show_social_icons:  false
+show_related_posts: false
+show_post_footers:  true
+show_social_icons:  true
 
 # Disqus post comments
 # (leave blank to disable Disqus)
 disqus_shortname:
 
 # Social icons
-github_username:
+github_username: jadianes
 bitbucket_username:
 stackoverflow_id:
-twitter_username:
+twitter_username: ja_dianes
 google_plus_id:
-linkedin_username:
+linkedin_username: jadianes
 angellist_username:
 medium_id:
 bitcoin_url:
@@ -35,7 +35,7 @@ paypal_url:
 flattr_button:
 
 # Post sharing icons
-show_sharing_icons: false
+show_sharing_icons: true
 share_text: 'Share this post!'
 # Change to 'true' to enable individual icons
 share_facebook: false
