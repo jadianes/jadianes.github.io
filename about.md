@@ -10,6 +10,7 @@ This one is a blog about those topics that I find exciting such as [**Data Analy
 You can contact me at [Codementor](https://www.codementor.io/jadianes) or just using the form below.  
 I also contribute to [R-Bloggers](http://www.r-bloggers.com).  
 
+<<<<<<< HEAD
 <div>
 <a href="https://www.codementor.io/jadianes"><img src="https://cdn.codementor.io/badges/contact_me_github.svg" alt="Contact me on Codementor" style="max-width:30%" /></a>
 </div>
@@ -20,3 +21,15 @@ I also contribute to [R-Bloggers](http://www.r-bloggers.com).
     <input type="submit" class="button button-blue button-big mobile-block" value="Say Hello">
   </form>
 </div>
+=======
+Checkout the [Github repository](https://github.com/johnotander/pixyll) to download it,
+request a feature, report a bug, or contribute. It's free, and open source
+([MIT](http://opensource.org/licenses/MIT)).
+
+Thanks to the following:
+
+* [BASSCSS](http://basscss.com)
+* [Jekyll](http://jekyllrb.com)
+* [Refills](http://refills.bourbon.io/)
+* [Type Scale](http://type-scale.com/)
+>>>>>>> johnotander/master
