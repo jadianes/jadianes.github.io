@@ -736,5 +736,13 @@ or incidence) with the time when these programs started.
 
 All these approaches should create awareness on the real situation of a disease
 that is causing millions of deaths in some countries, while it was about to be
-neglected in some others.
+neglected in some others.  
+
+## Your turn!  
+
+This post is part of a series about doing Data Journalism using Python. Now is your
+turn to go and fork the [repo](https://github.com/jadianes/data-journalism-python) 
+and modify the [IPython/Jupyter notebook](https://github.com/jadianes/data-journalism-python/tree/master/notebooks/tuberculosis-world-situation) assiciated to this 
+post and contribute with your own analysis and conclusions.  
+
 
