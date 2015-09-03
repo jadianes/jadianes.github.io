@@ -10,7 +10,7 @@ tags: spark python
 
 This Apache Spark tutorial will guide you step-by-step into how to use the [MovieLens dataset](http://grouplens.org/datasets/movielens/) to build a movie recommender using [collaborative filtering](https://en.wikipedia.org/wiki/Recommender_system#Collaborative_filtering) with [Spark's Alternating Least Saqures](https://spark.apache.org/docs/latest/mllib-collaborative-filtering.html) implementation.  
 
-The tutorial is organised in two parts. The first one is about getting and parsing movies and ratings data into Spark RDDs. The second is about building and using the recommender and persisting it for later use in our on-line recommender system.    
+The tutorial is organised in two parts. The first one is about getting and parsing movies and ratings data into Spark RDDs. The second is about building and using the recommender and persisting it for later use in our on-line recommender system. Both parts appeared recently at [Codementor.io](https://www.codementor.io/spark/tutorial/building-a-recommender-with-apache-spark-python-example-app-part1).      
 
 ###### Part I: [Building the recommender](https://github.com/jadianes/spark-py-notebooks/blob/master/movie-lens-recommender/notebooks/building-recommender.ipynb)  
 
