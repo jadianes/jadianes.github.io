@@ -1,0 +1,32 @@
+---
+layout: page
+link_text: Topics
+title: 
+permalink: /topics/
+in_nav: true
+---
+
+<p>These are some of the topics I write about.</p> 
+
+{% capture categories %}
+  {% for category in site.categories %}
+    |{{ category | first }}
+  {% endfor %}
+{% endcapture %}
+{% assign sorted_categories = categories | split: '|' | sort %}
+{% for category in sorted_categories %}
+    <p><a href="{{ site.baseurl }}/categories/{{ category }}">{{ category }}</a></p>
+{% endfor %}
+</br>
+
+<p>And these are some of the technologies and tools I use.</p>
+{% capture tags %}
+  {% for tag in site.tags %}
+    |{{ tag | first }}
+  {% endfor %}
+{% endcapture %}
+{% assign sorted_tags = tags | split: '|' | sort %}
+{% for tag in sorted_tags %}
+    <p><a href="{{ site.baseurl }}/tags/{{ tag }}">{{ tag }}</a></p>
+{% endfor %}
+</ul>
