@@ -15,7 +15,7 @@ in_nav: true
 {% endcapture %}
 {% assign sorted_categories = categories | split: '|' | sort %}
 {% for category in sorted_categories %}
-    <p><a href="{{ site.baseurl }}/categories/{{ category }}">{{ category }}</a></p>
+    <p><a href="{{ site.baseurl }}/categories/{{ category }}">{{ category | replace: '-', ' ' }}</a></p>
 {% endfor %}
 </br>
 
@@ -27,6 +27,6 @@ in_nav: true
 {% endcapture %}
 {% assign sorted_tags = tags | split: '|' | sort %}
 {% for tag in sorted_tags %}
-    <p><a href="{{ site.baseurl }}/tags/{{ tag }}">{{ tag }}</a></p>
+    <p><a href="{{ site.baseurl }}/tags/{{ tag }}">{{ tag | replace: '-', ' ' }}</a></p>
 {% endfor %}
 </ul>
