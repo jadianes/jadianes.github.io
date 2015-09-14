@@ -10,6 +10,8 @@ tags: python spark angularjs
 
 Our engine provides a [RESTful-like API](https://github.com/jadianes/olssen/tree/master/ws) to perform **on-line spectral search** for *proteomics* spectral data. It is based on the [SpectraST](http://tools.proteomecenter.org/wiki/index.php?title=Software:SpectraST) algorithm for spectral search and uses [PRIDE Cluster spectral libraries](http://wwwdev.ebi.ac.uk/pride/cluster/#/libraries). It also features an AngularJS web user interface.   
 
+###### You can view the whole project on [GitHub](https://github.com/jadianes/olssen). 
+
 ## Components  
 
 #### [Olssen Web Service](https://github.com/jadianes/olssen/tree/master/ws)  
