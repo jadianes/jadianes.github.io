@@ -266,7 +266,9 @@ before (or at least the result were not so clean).
 
 * Vectors can be the input of additional Information Retrieval and Machine
 Learning techniques including supervised (e.g. classification) and unsupervised
-(e.g. clustering, frequent pattern mining).  
+(e.g. clustering, frequent pattern mining). You can find all the code for this notebook 
+[on GitHub](https://github.com/jadianes/data-science-your-way/blob/master/apps/information-retrieval/Vector%20Space.ipynb) 
+where you can fork it and make it yours to experiment.   
 
 
 
