@@ -5,7 +5,7 @@ author: "Jose A. Dianes"
 date: "28 September 2015"
 comments: true
 categories: data-analysis  
-tags: r   
+tags: r spark   
 ---
 
 In this analysis we will use SparkR machine learning capabilities in order to try to predict property value in relation to other variables in the [2013 American Community Survey](http://www.census.gov/programs-surveys/acs/data/summary-file.html) dataset. You can also check the associated [Jupyter notebook](https://github.com/jadianes/spark-r-notebooks/blob/master/notebooks/nb4-linear-models/nb4-linear-models.ipynb). By doing so we will show the current limitations of SparkR's MLlib and also those of linear methods as a predictive method, no matter how much data we have.    
