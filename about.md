@@ -9,9 +9,6 @@ This one is a blog about those topics that I find exciting such as [**Data Analy
 
 You can contact me using the form below.   
 
-<div>
-<a href="https://www.codementor.io/jadianes"><img src="https://cdn.codementor.io/badges/contact_me_github.svg" alt="Contact me on Codementor" style="max-width:30%" /></a>
-</div>
 <div class="py2">
   <form action="https://forms.brace.io/jadianes@gmail.com" method="POST" class="form-stacked form-light">
     <input type="text" name="email" class="input mobile-block" placeholder="Email Address">
