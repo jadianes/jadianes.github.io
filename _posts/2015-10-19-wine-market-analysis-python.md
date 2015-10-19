@@ -2,7 +2,7 @@
 layout: post
 title: "A look at the world wine market using Python, Pandas, and Seaborn"
 author: "Jose A. Dianes"
-date: "2 October 2015"
+date: "19 October 2015"
 comments: true
 categories: data-analysis data-journalism  
 tags: python   
