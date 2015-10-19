@@ -23,7 +23,7 @@ The Data Journalism technical topics we will cover in this article include:
 
 Hopefully you will find this article interesting but, overall, you will learn the techniques we use here in order to apply them to your own data journalism projects. And hey, maybe after that you will be a bit more wine knowledgeable and a better buyer!
 
-You can find the associated IPython/Jupyter notebook in our [Data Journlism with Python GitHub repository](https://github.com/jadianes/data-journalism-python/blob/master/notebooks/wine-market/wine-market.ipynb).
+You can find the associated IPython/Jupyter notebook in our [Data Journlism with Python GitHub repository](https://github.com/jadianes/data-journalism-python/blob/master/notebooks/wine-market/wine-market-no-mpld3.ipynb).
 
 ## Getting Wine.com API data
 
