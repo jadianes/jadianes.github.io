@@ -4,7 +4,7 @@ title: "A visual on tuberculosis evolution using Python and Bokeh"
 author: "Jose A. Dianes"
 date: "23 September 2015"
 comments: true
-categories: data-analysis development  
+categories: data-analysis data-journalism  
 tags: python   
 ---
 
