@@ -4,7 +4,7 @@ title: "Enterprise Integration of QoS-aware systems"
 date: 2012-07-10
 comments: true
 categories: architecture
-tags: 
+tags: java
 ---
 
 [**ServiceDDS**](https://github.com/ServiceDDS/service-dds) is a framework for integrating independently developed real-time components into dynamic and decentralized distributed architectures.  
