@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Enterprise Integration vs Systems Distribution"
+title: "Enterprise Integration vs Distributed Systems"
 date: 2012-06-06 22:42:09 +0100
 comments: true
 categories: architecture
