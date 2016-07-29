@@ -1,17 +1,55 @@
-# Site settings
-title: Pixyll
-email: your_email@example.com
-author: John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
-baseurl: ""
-url: "http://pixyll.com"
-google_analytics: UA-53548208-1
-animated: false
-
-# Build settings
+---
+title: making things happen
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+email: 
+author: J. A. Dianes
+description: building ideas into products using data analytics, mobile and web technologies
+baseurl: 
+url: http://www.jadianes.me
+date_format: "%b %-d, %Y"
+google_analytics: 
+google_verification: 
+animated: true
+show_related_posts: false
+show_post_footers: false
+show_social_icons: true
+disqus_shortname: 
+github_username: jadianes
+bitbucket_username: 
+stackoverflow_id: 
+twitter_username: ja_dianes
+google_plus_id: 
+linkedin_username: jadianes
+angellist_username: 
+medium_id: 
+bitcoin_url: 
+paypal_url: 
+flattr_button: 
+show_sharing_icons: true
+share_text: Share this post!
+share_facebook: true
+share_twitter: true
+share_googleplus: true
+share_linkedin: true
+share_digg: true
+share_tumblr: false
+share_reddit: true
+share_stumbleupon: false
+share_hackernews: true
 markdown: kramdown
-permalink: pretty
-paginate: 3
+redcarpet:
+  extensions:
+  - smart
+  - tables
+  - with_toc_data
+permalink: "/:title"
+paginate: 4
 sass:
   compressed: true
-
