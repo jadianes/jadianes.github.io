@@ -2,7 +2,7 @@
 title: Enterprise Integration of QoS-aware systems
 date: 2012-07-10 00:00:00 Z
 categories:
-- architecture
+- development
 tags:
 - java
 layout: post

@@ -3,6 +3,7 @@ title: Exploring geographical data with SparkR and ggplot2
 date: 2015-10-02 00:00:00 Z
 categories:
 - data-analysis
+- data-visualisation
 tags:
 - r
 - spark

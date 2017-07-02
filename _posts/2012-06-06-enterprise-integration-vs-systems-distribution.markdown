@@ -2,7 +2,7 @@
 title: Enterprise Integration vs Distributed Systems
 date: 2012-06-06 21:42:09 Z
 categories:
-- architecture
+- development
 layout: post
 comments: true
 ---

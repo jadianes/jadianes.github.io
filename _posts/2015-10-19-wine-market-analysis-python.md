@@ -4,6 +4,8 @@ date: 2015-10-19 00:00:00 Z
 categories:
 - data-analysis
 - data-journalism
+- data-visualisation
+- communication
 tags:
 - python
 layout: post
