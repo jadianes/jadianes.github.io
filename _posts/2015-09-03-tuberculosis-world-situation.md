@@ -3,7 +3,6 @@ title: World differences in infectious tuberculosis prevalence 1990-2007
 date: 2015-09-03 00:00:00 Z
 categories:
 - data-analysis
-- data-journalism
 - data-visualisation
 - communication
 tags:

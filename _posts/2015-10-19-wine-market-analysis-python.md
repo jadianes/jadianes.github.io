@@ -3,7 +3,6 @@ title: A look at the world wine market using Python, Pandas, and Seaborn
 date: 2015-10-19 00:00:00 Z
 categories:
 - data-analysis
-- data-journalism
 - data-visualisation
 - communication
 tags:
