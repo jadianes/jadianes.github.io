@@ -6,7 +6,7 @@ link_text: About
 in_nav: true
 ---
 
-My name is Jose A. Dianes and, as many others, I got into computers, as a kid, out of fascination about programming those 8-bit 80s wonders to make stuff I wanted (or I wished) them to do. That, together with a certain inclination towards maths and science at school, got me into pursuing my degree in computer science and, eventually a PhD in software engineering that I hoped would allow me to stay curious and passionate about the discipline.  
+My name is Jose A. Dianes and, as many others, I got into computers out of fascination about programming those 8-bit 80s wonders to make stuff I wanted (or I wished) them to do. That, together with a certain inclination towards maths and science at school, got me into pursuing my degree in computer science and, eventually a PhD in software engineering that I hoped would allow me to stay curious and passionate about the discipline.  
 
 But research in that area tend to be more about innovation in technology and practices. It felt to me a bit distant from using technology as a tool for exploration and understanding. It did not put me into the **question-experiment-answer** exploratory way of thinking I was more inclined to.
 
