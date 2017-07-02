@@ -1,8 +1,8 @@
 # Site settings
-title: building Data Products
+title: data insight blog
 email:
 author: J. A. Dianes
-description: "building data science and machine learning products using Python, Spark, R, and web technologies"
+description: "generating data insight through analysis, visualisation, and interactive storytelling"
 baseurl: ""
 url: "http://www.jadianes.me"
 date_format: "%b %-d, %Y"
