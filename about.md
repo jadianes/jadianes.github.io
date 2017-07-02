@@ -22,7 +22,7 @@ But then I realised that, at the same rate as we were being able to make progres
 
 This one is a blog about those topics that I find exciting such as [**Data Visualisation**](http://jadianes.me/categories/data-visualisation/), [**Data Analysis**](http://jadianes.me/categories/data-analysis/), or [**Communication and Storytelling**](http://jadianes.me/categories/communication/). But it is also about the best ways of using technology to create **data insght**. Therefore we will talk about technologies such as `ElasticSearch` and `Lucene`, the [`R`](http://jadianes.me/tags/r) and [`Python`](http://jadianes.me/tags/python) ecosystems, or [`Spark`](http://jadianes.me/tags/spark). But also about integrating them into interactive webproducts using, [`Python`](http://jadianes.me/tags/python), `Flask`, [`AngularJS`](http://jadianes.me/tags/angularjs), `D3`, etc.  
 
-In my spare time, I also write about [**Wine**](http://aboutwine.me/en/) and [**Photography**](http://jadianesphoto.com).  
+In my spare time, I also write about [**Wine**](http://aboutwine.mindglimpse.com/) and [**Photography**](http://jadianesphoto.com).  
 
 You can contact me using the form below, or you can check my open source projects [on GitHub](https://github.com/jadianes).   
 
