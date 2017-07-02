@@ -1,11 +1,13 @@
 ---
+title: Scoring using the Vector Space Model
+date: 2014-12-13 00:00:00 Z
+categories:
+- information-retrieval
+tags:
+- python
 layout: post
-title: "Scoring using the Vector Space Model"
-author: "Jose A. Dianes"
-date: "13 December 2014"
+author: Jose A. Dianes
 comments: true
-categories: information-retrieval
-tags: python
 ---
 
 Previously we discussed [tf-idf](/tf-idf-101) as a way to calculate how relevant a search term

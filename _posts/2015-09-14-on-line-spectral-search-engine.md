@@ -1,11 +1,16 @@
 ---
+title: An OnLine Spectral Search ENgine using Python with Spark, Flask, and AngularJS
+date: 2015-09-14 00:00:00 Z
+categories:
+- data-analysis
+- development
+tags:
+- python
+- spark
+- angularjs
 layout: post
-title: "An OnLine Spectral Search ENgine using Python with Spark, Flask, and AngularJS"
-author: "Jose A. Dianes"
-date: "14 September 2015"
+author: Jose A. Dianes
 comments: true
-categories: data-analysis development  
-tags: python spark angularjs   
 ---
 
 Our engine provides a [RESTful-like API](https://github.com/jadianes/olssen/tree/master/ws) to perform **on-line spectral search** for *proteomics* spectral data. It is based on the [SpectraST](http://tools.proteomecenter.org/wiki/index.php?title=Software:SpectraST) algorithm for spectral search and uses [PRIDE Cluster spectral libraries](http://wwwdev.ebi.ac.uk/pride/cluster/#/libraries). It also features an AngularJS web user interface.   

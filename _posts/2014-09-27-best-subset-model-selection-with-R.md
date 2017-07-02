@@ -1,14 +1,17 @@
 ---
+title: Best subset model selection with R
+date: 2014-09-27 00:00:00 Z
+categories:
+- data-analysis
+tags:
+- r
+- model-selection
 layout: post
-title: "Best subset model selection with R"
-author: "Jose A. Dianes"
-date: "27 September 2014"
+author: Jose A. Dianes
 comments: true
-categories: data-analysis
-tags: r model-selection
 output:
   html_document:
-    keep_md: yes
+    keep_md: true
 ---
 
 Linear regression models are easy to fit and interpret. Moreover, they are 

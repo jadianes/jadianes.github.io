@@ -1,11 +1,14 @@
 ---
+title: Dangers of inheritance in OO programming
+date: 2012-08-13 21:41:31 Z
+categories:
+- development
+tags:
+- java
 layout: post
-title: "Dangers of inheritance in OO programming"
-date: 2012-08-13 22:41:31 +0100
 comments: true
-categories: development
-tags: java
 ---
+
 *Note: The following ideas are part of what is considered today good practices in the Java development community, and are very well explained in the book Effective Java (2nd Edition) by Joshua Bloch.*
 
 In *object-oriented programming (OOP)*, inheritance is a way to reuse code of existing objects, or to establish a subtype from an existing object, or both, depending upon programming language support. In the Java programming language, two types of inheritance are possible. Implementation inheritance, where a child class inherits the (public and protected) interface of the parent class, together with the implementation of its methods, and Interface inheritance where the child class just inherits method definitions without any implementation of them. Implementation inheritance is a powerful way to achieve code reuse but, when used inappropriately, may produce fragile software.  

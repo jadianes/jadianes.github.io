@@ -1,12 +1,15 @@
 ---
+title: About Java project and package organization
+date: 2012-09-02 00:00:00 Z
+categories:
+- development
+tags:
+- java
 layout: post
-title: "About Java project and package organization"
-author: "Jose A. Dianes"
-date: "2 September 2012"
+author: Jose A. Dianes
 comments: true
-categories: development
-tags: java
 ---
+
 There is a heated debate about what is the most appropriate organization and 
 naming convention of Java packages and projects and, by extension, software 
 modules. The two approaches are *‘by abstraction layer’* (e.g. model, controller, 

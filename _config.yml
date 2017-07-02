@@ -1,43 +1,40 @@
-# Site settings
+---
 title: data insight blog
-email:
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+email: 
 author: J. A. Dianes
-description: "generating data insight through analysis, visualisation, and interactive storytelling"
-baseurl: ""
-url: "http://www.jadianes.me"
+description: generating data insight through analysis, visualisation, and interactive
+  storytelling
+baseurl: ''
+url: http://www.jadianes.me
 date_format: "%b %-d, %Y"
-
-# Google services
-google_analytics:
-google_verification:
-
-# Optional features
-animated:           true
+google_analytics: 
+google_verification: 
+animated: true
 show_related_posts: false
-show_post_footers:  false
-show_social_icons:  true
-
-# Disqus post comments
-# (leave blank to disable Disqus)
-disqus_shortname:
-
-# Social icons
+show_post_footers: false
+show_social_icons: true
+disqus_shortname: 
 github_username: jadianes
-bitbucket_username:
-stackoverflow_id:
+bitbucket_username: 
+stackoverflow_id: 
 twitter_username: ja_dianes
-google_plus_id:
+google_plus_id: 
 linkedin_username: jadianes
-angellist_username:
-medium_id:
-bitcoin_url:
-paypal_url:
-flattr_button:
-
-# Post sharing icons
+angellist_username: 
+medium_id: 
+bitcoin_url: 
+paypal_url: 
+flattr_button: 
 show_sharing_icons: true
-share_text: 'Share this post!'
-# Change to 'true' to enable individual icons
+share_text: Share this post!
 share_facebook: true
 share_twitter: true
 share_googleplus: true
@@ -47,13 +44,13 @@ share_tumblr: false
 share_reddit: true
 share_stumbleupon: false
 share_hackernews: true
-
-# Build settings
-markdown:     kramdown
+markdown: kramdown
 redcarpet:
-  extensions: ['smart', 'tables', 'with_toc_data']
-permalink:    /:title
-paginate:     4
-
+  extensions:
+  - smart
+  - tables
+  - with_toc_data
+permalink: "/:title"
+paginate: 4
 sass:
   compressed: true

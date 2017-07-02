@@ -1,11 +1,14 @@
 ---
+title: 'A scalable on-line movie recommender using Spark and Flask '
+date: 2015-08-29 00:00:00 Z
+categories:
+- data-analysis
+tags:
+- spark
+- python
 layout: post
-title: "A scalable on-line movie recommender using Spark and Flask "
-author: "Jose A. Dianes"
-date: "29 August 2015"
+author: Jose A. Dianes
 comments: true
-categories: data-analysis   
-tags: spark python  
 ---
 
 This Apache Spark tutorial will guide you step-by-step into how to use the [MovieLens dataset](http://grouplens.org/datasets/movielens/) to build a movie recommendations **web service** using [collaborative filtering](https://en.wikipedia.org/wiki/Recommender_system#Collaborative_filtering) with [Spark's Alternating Least Saqures](https://spark.apache.org/docs/latest/mllib-collaborative-filtering.html) implementation and Python/Flask.  

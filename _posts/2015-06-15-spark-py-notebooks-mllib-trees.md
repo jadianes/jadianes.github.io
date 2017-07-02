@@ -1,11 +1,16 @@
 ---
+title: 'Spark & Python Notebooks V: Decision Trees & Model Selection'
+date: 2015-06-15 00:00:00 Z
+categories:
+- data-analysis
+tags:
+- spark
+- python
+- decision-trees
+- model-selection
 layout: post
-title: "Spark & Python Notebooks V: Decision Trees & Model Selection"
-author: "Jose A. Dianes"
-date: "15 June 2015"
+author: Jose A. Dianes
 comments: true
-categories: data-analysis   
-tags: spark python decision-trees model-selection
 ---
 
 The [fourth episode](http://jadianes.me/spark-py-notebooks-mllib-logit/) in our Spark series introduced **Logistic Regression** with MLlib. This new notebook explains how to use the library to build a **classifier** using **Decision Trees** on a large dataset. It also shows how powerful trees are in order to understand our data and even perform **model selection**.     

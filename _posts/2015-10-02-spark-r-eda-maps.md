@@ -1,11 +1,14 @@
 ---
+title: Exploring geographical data with SparkR and ggplot2
+date: 2015-10-02 00:00:00 Z
+categories:
+- data-analysis
+tags:
+- r
+- spark
 layout: post
-title: "Exploring geographical data with SparkR and ggplot2"
-author: "Jose A. Dianes"
-date: "2 October 2015"
+author: Jose A. Dianes
 comments: true
-categories: data-analysis  
-tags: r spark   
 ---
 
 The present analysis will make use of **SparkR**'s power to analyse large datasets in order to explore the [2013 American Community Survey](http://www.census.gov/programs-surveys/acs/data/summary-file.html) dataset, more concretely its geographical features. For that purpose, we will aggregate data using the different tools introduced in the [SparkR documentation](http://spark.apache.org/docs/latest/sparkr.html) and our [series of notebooks](https://github.com/jadianes/spark-r-notebooks), and then use [ggplot2](http://ggplot2.org) mapping capabilities to put the different aggregations into a geographical context.

@@ -1,11 +1,14 @@
 ---
+title: World differences in infectious tuberculosis prevalence 1990-2007
+date: 2015-09-03 00:00:00 Z
+categories:
+- data-analysis
+- data-journalism
+tags:
+- python
 layout: post
-title: "World differences in infectious tuberculosis prevalence 1990-2007"
-author: "Jose A. Dianes"
-date: "3 September 2015"
+author: Jose A. Dianes
 comments: true
-categories: data-analysis data-journalism   
-tags: python  
 ---
 
 In this first approach to the world situation regarding **infectious tuberculosis**

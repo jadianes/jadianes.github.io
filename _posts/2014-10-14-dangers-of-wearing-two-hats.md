@@ -1,11 +1,13 @@
 ---
+title: The dangers of wearing two hats
+date: 2014-10-14 00:00:00 Z
+categories:
+- management
+tags:
+- scrum
 layout: post
-title: "The dangers of wearing two hats"
-author: "Jose A. Dianes"
-date: "14 October 2014"
+author: Jose A. Dianes
 comments: true
-categories: management
-tags: scrum
 ---
 
 [Scrum](http://en.wikipedia.org/wiki/Scrum_(software_development)) is an agile project development framework. It is a powerful way of thinking within software development organisations. However it has to be understood properly in order to get the most of it.   

@@ -1,11 +1,14 @@
 ---
+title: A visual on tuberculosis evolution using Python and Bokeh
+date: 2015-09-23 00:00:00 Z
+categories:
+- data-analysis
+- data-journalism
+tags:
+- python
 layout: post
-title: "A visual on tuberculosis evolution using Python and Bokeh"
-author: "Jose A. Dianes"
-date: "23 September 2015"
+author: Jose A. Dianes
 comments: true
-categories: data-analysis data-journalism  
-tags: python   
 ---
 
 In this second approach to the World situation of **infectious tuberculosis** from 1990 to 2007, we want to make a point about how a simple **visual representation** of tabular data, a **Bokeh heatmap** in this case, can provide a lot of information that, although is already there in the tabular data, might be more difficult to percieve.  

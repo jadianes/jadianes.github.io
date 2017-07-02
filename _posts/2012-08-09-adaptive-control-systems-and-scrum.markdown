@@ -1,11 +1,14 @@
 ---
+title: Adaptive control systems and Scrum
+date: 2012-08-09 21:41:48 Z
+categories:
+- management
+tags:
+- scrum
 layout: post
-title: "Adaptive control systems and Scrum"
-date: 2012-08-09 22:41:48 +0100
 comments: true
-categories: management
-tags: scrum
 ---
+
 One of the main goals of *Scrum* is to over-perform traditional and *waterfall-like project management* frameworks when dealing with requirements. The complexity of finding out what a system has to do and how, is far from being trivial. Assuming that the system requirements can be determined at the very beginning of the project is considered today a very naive approach that relies, at least, in two fallacies. First, that the client knows what she or he wants the system to do. Second, that this is the right thing to do, and that is not going to change during the development of the project.  
 
 However, the reality is that these two assumptions are far from being true. First, **the client use to have just a vague idea** about what the system has to do, or most of the time, an idea about a business opportunity that needs to be covered. And second, **this idea evolves with time**, based on the results of the project itself, and on changing market needs. That is, the target that represents the “definitive” system characteristics is moving, sometimes under unknown conditions.  

@@ -1,11 +1,14 @@
 ---
+title: Stand-up meetings or the developer therapy
+date: 2012-05-12 21:42:26 Z
+categories:
+- management
+tags:
+- scrum
 layout: post
-title: "Stand-up meetings or the developer therapy"
-date: 2012-05-12 22:42:26 +0100
 comments: true
-categories: management
-tags: scrum
 ---
+
 *Scrum* is an agile management framework, that introduces several practices in order to adapt to the inherent complexity and uncertainty of a software development project. A bunch of these practices deal with the communications inside of the development team, including several periodical meetings.  
 
 The *Daily Scrum or standup meeting* takes place each day during an iteration or sprint. The meeting length is timeboxed to 15-minutes length, and each team member (the developers) answers three questions:  

@@ -1,11 +1,14 @@
 ---
+title: 'Spark & Python Notebooks III: Statistics and EDA'
+date: 2015-06-01 00:00:00 Z
+categories:
+- data-analysis
+tags:
+- spark
+- python
 layout: post
-title: "Spark & Python Notebooks III: Statistics and EDA"
-author: "Jose A. Dianes"
-date: "1 June 2015"
+author: Jose A. Dianes
 comments: true
-categories: data-analysis   
-tags: spark python
 ---
 
 Episodes [one](http://jadianes.me/spark-py-notebooks-basics/) and [two](http://jadianes.me/spark-py-notebooks-key-value/) in our Spark series introduced how to work with RDDs. The third one introduces Spark's **MLlib** library for machine learning, starting with its **Statistics** and **Exploratory Data Analysis** capabilities.   

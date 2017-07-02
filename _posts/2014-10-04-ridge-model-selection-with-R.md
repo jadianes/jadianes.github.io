@@ -1,14 +1,17 @@
 ---
+title: Ridge regression model selection with R
+date: 2014-10-04 00:00:00 Z
+categories:
+- data-analysis
+tags:
+- r
+- model-selection
 layout: post
-title: "Ridge regression model selection with R"
-author: "Jose A. Dianes"
-date: "4 October 2014"
+author: Jose A. Dianes
 comments: true
-categories: data-analysis
-tags: r model-selection
 output:
   html_document:
-    keep_md: yes
+    keep_md: true
 ---
 
 If [recently we used *best subset*](/best-subset-model-selection-with-R/) 

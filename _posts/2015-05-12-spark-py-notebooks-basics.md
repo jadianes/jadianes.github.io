@@ -1,11 +1,14 @@
 ---
+title: 'Spark & Python Notebooks I: the basics'
+date: 2015-05-12 00:00:00 Z
+categories:
+- data-analysis
+tags:
+- spark
+- python
 layout: post
-title: "Spark & Python Notebooks I: the basics"
-author: "Jose A. Dianes"
-date: "12 May 2015"
+author: Jose A. Dianes
 comments: true
-categories: data-analysis   
-tags: spark python
 ---
 
 This is a collection of IPython notebooks intended to train the reader

@@ -1,11 +1,12 @@
 ---
+title: Enterprise Integration vs Distributed Systems
+date: 2012-06-06 21:42:09 Z
+categories:
+- architecture
 layout: post
-title: "Enterprise Integration vs Distributed Systems"
-date: 2012-06-06 22:42:09 +0100
 comments: true
-categories: architecture
-tags: 
 ---
+
 Recently, as a part of  my PhD defence, I had to discuss the concept of *Enterprise Integration*, and I decided that a good way of doing it was as a comparison with a more familiar concept, *system distribution*.  
 
 So, a distributed software system is one which potentially runs over a network of computers. The parts of this software system are interdependent and interact in order to achieve a common goal. That is, its parts **are not intended to run independently**.  

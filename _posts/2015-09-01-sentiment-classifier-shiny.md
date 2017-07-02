@@ -1,11 +1,13 @@
 ---
+title: 'A web-based Sentiment Classifier using R and Shiny  '
+date: 2015-09-01 00:00:00 Z
+categories:
+- data-analysis
+tags:
+- r
 layout: post
-title: "A web-based Sentiment Classifier using R and Shiny  "
-author: "Jose A. Dianes"
-date: "1 September 2015"
+author: Jose A. Dianes
 comments: true
-categories: data-analysis   
-tags: r  
 ---
 
 The purpose of many data science projects is to end up with a model that can be used within an organisation to solve a particular problem. If this is our case, we need to determine the right representation of that model so it can be shared in the easiest, cheapest, and most effective way. Web data products are an ideal vehicle for delivering machine learning models. The Web can be accessed almost everywhere and by multiple users. Moreover, the typical web application deployment cycle allows us to do easy updates.  

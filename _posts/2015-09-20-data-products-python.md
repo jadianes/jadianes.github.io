@@ -1,11 +1,14 @@
 ---
+title: Building data products with Python
+date: 2015-09-20 00:00:00 Z
+categories:
+- data-analysis
+- development
+tags:
+- python
 layout: post
-title: "Building data products with Python"
-author: "Jose A. Dianes"
-date: "20 September 2015"
+author: Jose A. Dianes
 comments: true
-categories: data-analysis development  
-tags: python   
 ---
 
 The [following](https://github.com/jadianes/winerama-recommender-tutorial) is a repository containing the code for a wine reviews and recommendations web application, in different stages as git tags. The idea is that you can follow the **tutorials** through the **tags** listed below, and learn the different concepts explained in them. We will use Python technologies such as Django, Pandas, or Scikit-learn.  The tutorials also include instructions on how to deploy the web using a [Koding account](https://koding.com/).  

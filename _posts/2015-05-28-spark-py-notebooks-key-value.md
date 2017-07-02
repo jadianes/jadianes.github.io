@@ -1,11 +1,14 @@
 ---
+title: 'Spark & Python Notebooks II: key/value RDDs'
+date: 2015-05-28 00:00:00 Z
+categories:
+- data-analysis
+tags:
+- spark
+- python
 layout: post
-title: "Spark & Python Notebooks II: key/value RDDs"
-author: "Jose A. Dianes"
-date: "28 May 2015"
+author: Jose A. Dianes
 comments: true
-categories: data-analysis   
-tags: spark python
 ---
 
 [Previously](http://jadianes.me/spark-py-notebooks-basics/), we introduced the basics of working with Spark RDDs in Python. 

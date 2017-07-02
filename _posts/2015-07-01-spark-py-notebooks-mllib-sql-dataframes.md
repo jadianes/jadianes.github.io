@@ -1,11 +1,14 @@
 ---
+title: 'Spark & Python Notebooks VI: SQL & Dataframes'
+date: 2015-07-01 00:00:00 Z
+categories:
+- data-analysis
+tags:
+- spark
+- python
 layout: post
-title: "Spark & Python Notebooks VI: SQL & Dataframes"
-author: "Jose A. Dianes"
-date: "1 July 2015"
+author: Jose A. Dianes
 comments: true
-categories: data-analysis   
-tags: spark python  
 ---
 
 The [fifth episode](http://jadianes.me/spark-py-notebooks-mllib-trees/) in our Spark series introduced **Decision Trees** with MLlib. This new notebook moves away from **MLlib** for a while in order to introduce **SparkSQL** and the concept of **Dataframe**, that will speed up our analysis and make it easier to communicate.     

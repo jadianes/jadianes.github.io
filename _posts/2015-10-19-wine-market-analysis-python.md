@@ -1,11 +1,14 @@
 ---
+title: A look at the world wine market using Python, Pandas, and Seaborn
+date: 2015-10-19 00:00:00 Z
+categories:
+- data-analysis
+- data-journalism
+tags:
+- python
 layout: post
-title: "A look at the world wine market using Python, Pandas, and Seaborn"
-author: "Jose A. Dianes"
-date: "19 October 2015"
+author: Jose A. Dianes
 comments: true
-categories: data-analysis data-journalism  
-tags: python   
 ---
 
 In this article we want to have a look at present wine market prices by region and appellation from the point of view of the [Wine.com](http://www.wine.com/) website catalog. We will use Python-based libraries such as [`Pandas`](http://pandas.pydata.org/) and [`Seaborn`](http://stanford.edu/~mwaskom/software/seaborn/).

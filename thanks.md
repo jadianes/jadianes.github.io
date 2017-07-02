@@ -1,6 +1,7 @@
 ---
-layout: page
 title: Thanks For Your Message
-permalink: /thanks/
+permalink: "/thanks/"
+layout: page
 ---
+
 Thanks for contacting me. We will reply as soon as possible.
