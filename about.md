@@ -14,9 +14,9 @@ So I was out for a job and, after collaborating with a few startups I joined the
 
 However, being in the middle of the big data age, most efforts were centered around the problems emerging from storing and processing massive amounts of data in a scalable way. And that, again, was about technology. It was shifting me away from the question-experiment-answer exploratory way of working I was more inclined to!
 
-But then I realised that, at the same rate as we were being able to make progress on processing massive amounts of data, an increasing need for sensemaking and communication was being created. In order for scientists and entrepreneours to make the right decissions about the phenomena they were studying or helping to create, knowledge and insight needed to be extracted from data and information. Data cannot be acted on if it is not properly understood.
+But then I realised that, at the same rate as we were being able to make progress on processing massive amounts of data, an increasing need for **sensemaking and communication** was being created. In order for scientists and entrepreneours to make the right decissions about the phenomena they were studying or helping to create, knowledge and insight needed to be extracted from data. Data cannot be acted on if it is not properly understood.
 
-Data visualisation and communication are, of course, essential steps in this process. My aim is to provide organisations witht he right tools to understand information. By doing so they are in a better position to improve, evolve, and compete. Communicating this knowledge correctly and effectively makes the most of both, their efforts on data gathering and processing and their human talent. This is a critical activity not just inside an organisation but also for outreaching purposes.
+**Data visualisation** and **communication** are, of course, essential steps in this process. My aim is to provide organisations witht **the right tools** to **understand** information. By doing so they are in a better position to **improve**, **evolve**, and **compete**. Communicating this knowledge correctly and effectively makes the most of both, their efforts on data gathering and processing, and their human talents. This is a critical activity not just inside an organisation but also for outreaching purposes.
 
 ### Topics 
 
