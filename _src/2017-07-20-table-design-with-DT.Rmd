@@ -1,0 +1,64 @@
+---
+title: Effective table design with R and DT
+date: 2017-07-20 00:00:00 Z
+categories:
+- data-analysis
+- data-visualisation
+- communication
+tags:
+- R
+layout: post
+author: Jose A. Dianes
+comments: true
+---
+
+>>> Intro to DT 
+>>> About Stephen Few (where to put him in the dataviz spectrum) and Show me the Numbers book (the best one, less opinionated, right to business of his books, recommended)
+
+## Business Intelligence and Exploratory Data Anlysis
+
+## When to use tables  
+
+>>> (p44). 
+
+## Hello, DT  
+
+### Our dataset
+
+>>> Use some R package (or core lib)
+
+Candidates:  
+Orange  
+PlantGrowth, ToothGrowth (for r for research)  
+**UCBAdmissions** (a 3d table)  
+UKDriverDeaths (boxplots in time)  
+**esoph** (consumption header for two columns, repeated age groups as merged cells)  
+
+### Install DT
+
+### The DT default table  
+
+
+## Table design best practices with DT  
+
+>>> (p158)
+
+### Table components  
+
+>>> (p155)  
+
+### Delineating  columns and rows  
+
+### Arranging data  
+
+### Formating text  
+
+### Summarising values  
+
+### Page information   
+
+## Conclusions  
+
+>>> BI vs journalism and other forms of communication. It's all about the audience.
+>>> Get the source code  
+
