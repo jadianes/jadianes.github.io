@@ -25,19 +25,35 @@ comments: true
 
 ### Our dataset
 
->>> Use some R package (or core lib)
+**esoph**: consumption header for two columns, repeated age groups as merged cells.  
 
-Candidates:  
-Orange  
-PlantGrowth, ToothGrowth (for r for research)  
-**UCBAdmissions** (a 3d table)  
-UKDriverDeaths (boxplots in time)  
-**esoph** (consumption header for two columns, repeated age groups as merged cells)  
+```{r}
+help(esoph)
+```
+
+```{r}
+head(esoph)
+```
+
+```{r}
+str(esoph)
+```
+
+
 
 ### Install DT
 
+```{r}
+# install.packages("DT")
+library(DT)
+```
+
 ### The DT default table  
 
+
+```{r}
+datatable(esoph)
+```
 
 ## Table design best practices with DT  
 
@@ -45,9 +61,14 @@ UKDriverDeaths (boxplots in time)
 
 ### Table components  
 
+```{r}
+colnames = c("Age group", "Alcohol consumption", "Tobacco consumption", "Number of cases", "Number of controls" )
+datatable(esoph, colnames=colnames)
+```
+
 >>> (p155)  
 
-### Delineating  columns and rows  
+### Delineating columns and rows  
 
 ### Arranging data  
 
@@ -61,4 +82,11 @@ UKDriverDeaths (boxplots in time)
 
 >>> BI vs journalism and other forms of communication. It's all about the audience.
 >>> Get the source code  
+
+Other interesting core R datasets:   
+- Orange    
+- PlantGrowth, ToothGrowth: they are typical treatment effect datasets. Good for learning how to use R for research.  
+- UCBAdmissions: a 3d table that might be an interesting project for DT.  
+- UKDriverDeaths: do some boxplots in time to study distribution trends.    
+
 
